@@ -7,9 +7,16 @@ using System.Threading.Tasks;
 
 namespace CardShuffle
 {
+    /// <summary>
+    /// Deck object to manage cards, create and shuffle
+    /// </summary>
     public static class Deck
     {
+        /// <summary>
+        /// The cards.
+        /// </summary>
         public static List<Card> Cards = new List<Card>(52);
+
         static Deck()
         {
             if (Cards.Count == 0)
@@ -18,6 +25,9 @@ namespace CardShuffle
             }
         }
 
+        /// <summary>
+        /// Creates a new ordered deck.
+        /// </summary>
         public static void NewDeck()
         {
             for (int i = 2; i < 15; i++)
@@ -59,7 +69,10 @@ namespace CardShuffle
             Cards = Cards.OrderBy(o => o.Suit).ToList();
         }
 
-        public static List<Card> Shuffle()
+        /// <summary>
+        /// Shuffles Cards Collection.
+        /// </summary>
+        public static void Shuffle()
         {
             Random r = new Random();
             var nSet = new List<Card>(52);
@@ -73,7 +86,7 @@ namespace CardShuffle
                 Cards.Remove(elem);
             }
 
-            return Cards = nSet;
+            Cards = nSet;
         }
     }
 }

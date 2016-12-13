@@ -32,7 +32,8 @@ namespace CardShuffle.Test
         [TestMethod]
         public void VerifyDeckIsShuffled()
         {
-            var shuffle1 = Deck.Shuffle();
+            Deck.Shuffle();
+            var shuffle1 = Deck.Cards;
 
             var firstThirteen = shuffle1.Take(13);
             var secondThirteen = shuffle1.Skip(13).Take(13);

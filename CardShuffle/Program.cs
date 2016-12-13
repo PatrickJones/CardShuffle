@@ -29,7 +29,9 @@ namespace CardShuffle
         // returns a shuffled deck of cards
         private static void ShuffleDeck()
         {
-            foreach (var card in Deck.Shuffle())
+            Deck.Shuffle();
+
+            foreach (var card in Deck.Cards)
             {
                 Console.WriteLine(card.Name);
             }
