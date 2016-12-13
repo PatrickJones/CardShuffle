@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardShuffle", "CardShuffle\CardShuffle.csproj", "{D10EEDB6-75D2-4F4B-A3DC-184EF5F40074}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardShuffle.Test", "CardShuffle.Test\CardShuffle.Test.csproj", "{88EDAB31-54A6-4785-A892-3C2143BFC24B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D10EEDB6-75D2-4F4B-A3DC-184EF5F40074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D10EEDB6-75D2-4F4B-A3DC-184EF5F40074}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D10EEDB6-75D2-4F4B-A3DC-184EF5F40074}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D10EEDB6-75D2-4F4B-A3DC-184EF5F40074}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88EDAB31-54A6-4785-A892-3C2143BFC24B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88EDAB31-54A6-4785-A892-3C2143BFC24B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88EDAB31-54A6-4785-A892-3C2143BFC24B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88EDAB31-54A6-4785-A892-3C2143BFC24B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
